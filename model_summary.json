@@ -1,0 +1,50 @@
+{
+  "saved_at": "2026-04-04T12:13:26.299283",
+  "models": {
+    "lgb_ft": "model_lgb_finetuned.pkl",
+    "final_lgb": "model_lgb_final.pkl",
+    "final_xgb": "model_xgb_final.pkl",
+    "hgb_final": "model_hgb_final.pkl"
+  },
+  "ensemble_weights": {
+    "wL_b": 1,
+    "wX_b": 1,
+    "wH_b": 1
+  },
+  "thresholds": {
+    "thresh_f1": 0.6700000000000002,
+    "thresh_ft_youden": 0.6592768821265765,
+    "thresh_ft_challenge": 0.01
+  },
+  "metrics_test": {
+    "f1_test_before": 0.9803040141185089,
+    "auc_test_before": 0.9980688311688312
+  },
+  "metrics_challenge": {},
+  "feature_info": {
+    "n_features_selected": 443,
+    "top_feat_names": [
+      "696",
+      "2409",
+      "724",
+      "2418",
+      "991",
+      "2417",
+      "2478",
+      "681",
+      "686",
+      "656",
+      "650",
+      "674",
+      "690",
+      "2413",
+      "924",
+      "611",
+      "593",
+      "520",
+      "596",
+      "684"
+    ]
+  },
+  "SEED": 42
+}
